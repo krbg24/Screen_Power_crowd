@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #666;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 10px;
+  font-weight: 800;
+}
+*{
+  box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  height: 30px;
+  width: 130px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.phone {
+  display: block;
+  width: 390px;
+  height: 844px;
+  background-image: url(img/фон.jpg);
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: auto;
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -422px;
+  margin-left: -195px;
+  padding: 24px
+  position: absolute;
+
+}
+.name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.card{
+  width: 361px;
+  height: 95px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  position:absolute;
+  left: 15px;
+  top:138px;
+}
+.knopka {
+  margin-left: 115px;
+  margin-top: 8px;
+}
+.style {
+  background: #7517EE;
+  color: #fff;
+  font-weight: 600;
+}
+.style:hover {
+  opacity: 0.75;
+}
+.style:active {
+  background: #fff;
+  color: #7517EE;
+}
+#myfoto {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 307px;
+  top: 32px;
+  }
+#shapka {
+  width: 390px;
+  position: fixed;
+  margin-left: 10px;
+  z-index: 10;
+}
+#uved {
+  text-decoration: none;
+  position: absolute;
+  left: 277px;
+  top: 51px;
+}
+#posit1 {
+  position: absolute;
+  left: 20px;
+  top: 101px;
+}
+#ruble0 {
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 8px;
+}
+#pop {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  color: #787878;
+  margin-left: 21px;
+  margin-top: 41px;
+}
+
+
+.set {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 246px;
+}
+.set2 {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 605px;
+  height: 420px;
+}
+.card_set {
+  width: 390px;
+  height: 309px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: flex;
+  gap: 10px;
+  margin-top: 13px;
+}
+
+
+.main_card {
+  width: 215.49px;
+  height: 308px;
+  border-radius: 20px;
+  padding-right: 30px;
+  position: relative;
+  background-image: url(img/фотолюлька.png);
+}
+#main_card_tap {
+  width: 208.08px;
+  height: 104.28px;
+  border-radius: 19px;
+  background: #7517EE;
+  color: #fff;
+  position: absolute;
+  margin-left: 3px;
+  margin-top: 199px;
+}
+#text_card1 {
+  font-size: 9.79px;
+  font-weight: 900;
+  line-height: 120%;
+  width: 170.51px;
+  height: 38.01px;
+  position: absolute;
+  margin-left: 12.52px;
+  margin-top: 18.58px;
+}
+#text_card2 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 120%;
+  width: 24px;
+  height: 13px;
+  position: absolute;
+  margin-left: 13px;
+  margin-top: 73px;
+  color: #FFE502;
+}
+#text_card3 {
+  font-size: 8.61px;
+  font-weight: 700;
+  line-height: 120%;
+  width: 44px;
+  height: 9px;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: 77px;
+  color: #FFE502;
+}
+#text_card4 {
+  font-size: 8.61px;
+  font-weight: 700;
+  line-height: 120%;
+  width: 66.47px;
+  height: 8.77px;
+  position: absolute;
+  margin-left: 118px;
+  margin-top: 77px;
+  color: #FFE502;
+}
+#strelka {
+  position: absolute;
+  margin-left: 192px;
+  margin-top: 45px;
+}
+#ten {
+  position: absolute;
+  margin-left: 12.52px;
+  margin-top: 65.3px;
+}
+
+
+
+.nav_bar {
+  width: 390px;
+  height: 98px;
+  background:rgba(249, 245, 255, 0.85);
+  border-radius:  30px 30px 0px 0px;
+  margin-top: 746px;
+  position: fixed;
+}
+#home_nav_bar {
+  width: 43px;
+  height: 38px;
+  position: absolute;
+  margin-left: 28px;
+  margin-top: 20px;
+}
+#project_nav_bar {
+  width: 26px;
+  height: 29px;
+  position: absolute;
+  margin-left: 106px;
+  margin-top: 22px;
+}
+#analytice_nav_bar {
+  width: 30px;
+  height: 31px;
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+#like_nav_bar {
+  width: 32.76px;
+  height: 29.16px;
+  position: absolute;
+  margin-left: 255px;
+  margin-top: 21px;
+}
+#profile_nav_bar {
+  width: 29px;
+  height: 31px;
+  position: absolute;
+  margin-left: 333px;
+  margin-top: 19px;
+}
+#bord_nav_bar {
+  position: absolute;
+  margin-left: 122px;
+  margin-top: 82px;
+}
